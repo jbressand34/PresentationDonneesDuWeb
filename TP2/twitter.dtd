@@ -1,0 +1,46 @@
+<!DOCTYPE twiter [
+<!ELEMENT twiter (utilisateur* | ( utilisateur+, tweet*)) >
+
+<!ELEMENT tweet (post, date, coordonnees?, os?, cptRetweet)>
+<!ATTLIST tweet idTweet ID #REQUIRED>
+<!ATTLIST tweet idAuthor IDREF #REQUIRED>
+<!ATTLIST tweet reponse IDREF #IMPLIED> 	<!-- référence vers le tweet précédent-->
+<!ATTLIST tweet allowAnswers category (true|false) #REQUIRED>
+
+<!ELEMENT post (message|video|image)+>
+<!ELEMENT message ((text|hashtag|refUser)+, size, font, color, language)>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT hashtag (#PCDATA)>
+<!ELEMENT refUser IDREF>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT font (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+
+<!ELEMENT video url>
+<!ELEMENT image url>
+<!ELEMENT url (#PCDATA)>
+
+<!ELEMENT date (secondes, fuseauHoraire)>
+<!ELEMENT secondes (#PCDATA)>
+<!ELEMENT fuseauHoraire (#PCDATA)>
+
+<!ELEMENT coordonnees (gps, ville, pays)>
+<!ELEMENT gps (longitude, latitude)>
+<!ELEMENT longitude (#PCDATA)>
+<!ELEMENT latitude (#PCDATA)>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT pays (#PCDATA)>
+
+<!ELEMENT os (#PCDATA)>
+<!ELEMENT cptRetweet (#PCDATA)> <!-- Nb de fois que le tweet est retweeté→
+
+
+<!ELEMENT utilisateur (nom, description, photo, suiveurs, suivis)>
+<!ATTLIST utilisateur idAut ID #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT descritpion (#PCDATA)>
+<!ELEMENT photo (#PCDATA)> <!-- url de l’image -->
+<!ELEMENT suiveurs (#PCDATA)> <!-- Nb d’abonnés -->
+<!ELEMENT suivis (#PCDATA)>      <!-- Nb d’utilisateurs auquel cet utilisateur est abonné -->
+]>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<presse>
+        <journal>
+                <article titre="DTD1" auteur="auth1">
+                        <corps>Article respectant la DTD1 du TP1 de représentation des données du web.</corps>
+                </article>
+        </journal>
+        <journalistes>
+                <journaliste idJ="auth1">
+                        <anonyme></anonyme>
+                </journaliste>
+                <journaliste idJ="auth2">
+                        <nom>Obama</nom>
+                        <prenom>Barack</prenom>
+                </journaliste>
+        </journalistes>
+</presse>

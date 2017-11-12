@@ -1,0 +1,19 @@
+<?xml version=”1.0” ?>
+<presse>
+    <journal>
+        <article titre=”Science et vie” auteur=”001”>
+                <corps>
+                    Numéro spécial sur les technologies du web
+                </corps>
+            </article>
+            <article titre=”Nature” auteur=”002”>
+                <corps>
+                    Numéro spécial sur le big data
+                </corps>
+            </article>
+        </journal>
+        <journalistes>
+            <journaliste id=”001”>
+                <anonyme />
+            </journaliste>
+            <journaliste id=”002”><pseudonyme>Spirou</pseudonyme></journaliste></journalistes></presse>

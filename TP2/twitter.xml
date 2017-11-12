@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<!DOCTYPE tweeter SYSTEM "twiter.dtd">
+<twiter>
+    <utilisateur idAut="0001">
+        <nom>Gérard</nom>
+        <description>Un franc rigollard</description>
+        <photo>http://babababababa</photo>
+        <suiveurs>3</suiveurs>
+        <suivis>0</suivis>
+    </utilisateur>
+    <utilisateur idAut="0002">
+        <nom>Ursula</nom>
+        <description>Une accroc de tweeter</description>
+        <photo>http://bababababababababa</photo>
+        <suiveurs>3</suiveurs>
+        <suivis>3</suivis>
+    </utilisateur>
+    <utilisateur idAut="0003">
+        <nom>Léopoldine</nom>
+        <description>Vient de découvrir tweeter</description>
+        <photo>http://babababababbabababababababababa</photo>
+        <suiveurs>0</suiveurs>
+        <suivis>0</suivis>
+    </utilisateur>
+    <tweet idTweet="2001" idAuthor="0001" allowAnswers="true">
+        <post>
+            <message>
+                <text>Le match de foot était aussi intéressant que ma vie</text>
+                <size>14</size>
+                <font>Arial</font>
+                <color>Red</color>
+                <language>French</language>
+            </message>
+        </post>
+        <date>
+            <secondes>1467880534</secondes>
+            <fuseauHoraire>UTC+1</fuseauHoraire>
+        </date>
+        <coordonnees>
+            <gps>
+                <longitude>3.8767159999999876</longitude>
+                <latitude>43.610769</latitude>
+            </gps>
+            <ville>Montpellier</ville>
+            <pays>France</pays>
+        </coordonnees>
+        <os>Windows XP</os>
+        <cptRetweet>3</cptRetweet>
+    </tweet>
+    <tweet idTweet="2002" idAuthor="0001" allowAnswers="false">
+        <post>
+            <message>
+                <text>Malheureusement aujourd'hui c'est repas chez la belle mère... Elle va encore cracher dans ma soupe.</text>
+                <size>14</size>
+                <font>Arial</font>
+                <color>Black</color>
+                <language>French</language>
+            </message>
+        </post>
+        <date>
+            <secondes>1468485334</secondes>
+            <fuseauHoraire>UTC+1</fuseauHoraire>
+        </date>
+        <coordonnees>
+            <gps>
+                <longitude>3.8767159999999876</longitude>
+                <latitude>43.610769</latitude>
+            </gps>
+            <ville>Montpellier</ville>
+            <pays>France</pays>
+        </coordonnees>
+        <os>iOS 9.1.3</os>
+        <cptRetweet>0</cptRetweet>
+    </tweet>
+    <tweet idTweet="2003" idAuthor="0002" allowAnswers="false" reponse="2001">
+        <post>
+            <message>
+                <text>Regardez cette vidéo de chats! Trop chou!</text>
+                <size>12</size>
+                <font>Calibri</font>
+                <color>Black</color>
+                <language>French</language>
+            </message>
+            <video>
+                <url>https://www.google.fr/url?sas</url>
+            </video>
+        </post>
+        <date>
+            <secondes>1470472534</secondes>
+            <fuseauHoraire>UTC+1</fuseauHoraire>
+        </date>
+        <coordonnees>
+            <gps>
+                <longitude>3.8767159999999876</longitude>
+                <latitude>43.610769</latitude>
+            </gps>
+            <ville>Montpellier</ville>
+            <pays>France</pays>
+        </coordonnees>
+        <os>iOS 9.1.3</os>
+        <cptRetweet>0</cptRetweet>
+    </tweet>
+    <tweet idTweet="2004" idAuthor="0002" allowAnswers="false" reponse="2001">
+        <post>
+            <message>
+                <text>Je veux la même licrone!</text>
+                <size>12</size>
+                <font>Calibri</font>
+                <color>Black</color>
+                <language>French</language>
+            </message>
+            <image>
+                <url>http://www.republ33k.fr/wp-content/uploads/2013/05/6784492-cute-pink-unicorn.jpg</url>
+            </image>
+        </post>
+        <date>
+            <secondes>1470501334</secondes>
+            <fuseauHoraire>UTC+1</fuseauHoraire>
+        </date>
+        <coordonnees>
+            <gps>
+                <longitude>3.8767159999999876</longitude>
+                <latitude>43.610769</latitude>
+            </gps>
+            <ville>Montpellier</ville>
+            <pays>France</pays>
+        </coordonnees>
+        <os>iOS 9.1.3</os>
+        <cptRetweet>0</cptRetweet>
+    </tweet>
+    <tweet idTweet="2005" idAuthor="0003" allowAnswers="false" reponse="2001">
+        <post>
+            <message>
+                <text>Mon premier tweet</text>
+                <size>18</size>
+                <font>Comic sans MS</font>
+                <color>Pink</color>
+                <language>French</language>
+            </message>
+        </post>
+        <date>
+            <secondes>1473179734</secondes>
+            <fuseauHoraire>UTC+1</fuseauHoraire>
+        </date>
+        <coordonnees>
+            <gps>
+                <longitude>5.4474270000000615</longitude>
+                <latitude>43.529742</latitude>
+            </gps>
+            <ville>Aix-en-Provence</ville>
+            <pays>France</pays>
+        </coordonnees>
+        <os>iOS 9.1.3</os>
+        <cptRetweet>0</cptRetweet>
+    </tweet>
+</twiter>

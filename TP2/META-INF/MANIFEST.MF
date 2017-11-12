@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: BaseX Core
+Implementation-Version: 8.5.3
+Built-By: user
+Package: org.basex
+Created-By: Apache Maven 3.2.5
+Implementation-URL: http://basex.org/basex
+SplashScreen-Image: img/start.png
+Implementation-Vendor: BaseX Team
+Implementation-Vendor-Id: org.basex
+Build-Jdk: 1.7.0_79
+Implementation-Build: 038a8a1
+Main-Class: org.basex.BaseXGUI
+

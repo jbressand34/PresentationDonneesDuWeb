@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<batiment>
+        <etage>
+                <description>Rez-de-chaussez</description>
+                <salle>
+                        <nombrePlaces>40</nombrePlaces>
+                </salle>
+                <salle>
+                        <nombrePlaces>40</nombrePlaces>
+                </salle>
+                <salle>
+                        <nombrePlaces>40</nombrePlaces>
+                </salle>
+        </etage>
+        <etage>
+                <description>Premier étage</description>
+                <salle>
+                        <nombrePlaces>50</nombrePlaces>
+                </salle>
+                <salle>
+                        <nombrePlaces>30</nombrePlaces>
+                </salle>
+                <salle>
+                        <nombrePlaces>25</nombrePlaces>
+                </salle>
+        </etage>
+</batiment>
